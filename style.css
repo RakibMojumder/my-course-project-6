@@ -1,0 +1,166 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;500;600;700;800;900&display=swap');
+/* <h1>The perfect venue for your
+                            next event</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod alias placeat laboriosam cum
+                            voluptas impedit odio incidunt exercitationem ipsa quis.</p>
+                        <button class="slider-btn btn btn-outline-primary">Book Now</button> */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+/* menu CSS part */
+.navbar-nav {}
+
+.navbar-nav li a {
+    color: #000;
+    font-weight: 600;
+}
+
+.carousel-inner {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption .slider-btn {
+    background: #fff;
+    color: #3F87F5;
+    margin-bottom: 40px;
+}
+
+.carousel-caption .slider-btn:focus {
+    box-shadow: none;
+}
+
+
+/* article section CSS part */
+.article-section {
+    margin: 60px auto;
+}
+
+.article-section img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.article-text .article-btn {
+    width: 150px;
+}
+
+/* package section CSS part */
+
+.package-section {
+    margin: 250px auto;
+}
+
+.package-section-tittle {
+    margin-bottom: 250px;
+}
+
+.card {
+    padding: 0;
+    border: none;
+}
+
+.card-body {
+    padding: 0;
+}
+
+.card-body ul {
+    padding-left: 0;
+}
+
+.card-body ul li {
+    line-height: 35px;
+}
+
+.card-body ul li span {
+    font-size: 14px;
+    color: #5243C2;
+    background: rgba(82, 67, 194, .2);
+    padding: 1px 5px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.card-btn a {
+    background: rgba(244, 150, 209, 0.2);
+    color: #3F87F5;
+    font-size: 18px;
+    border: none;
+    padding: 9px 45px;
+    border-radius: 50px;
+}
+
+#hot-package {
+    padding: 50px 20px;
+    background: #3F87F5;
+    color: #fff;
+    position: relative;
+    border-radius: 26px;
+    border: none;
+    position: relative;
+    top: -98px;
+    box-shadow: 0 42px 34px #acbad0;
+}
+
+#hot-package ul>li>span {
+    color: #fff;
+    background: #1F90EC;
+}
+
+#hot-package .card-btn>a {
+    background: #fff;
+}
+
+#hot-tag {
+    background: #FF4E4E;
+    padding: 5px 15px;
+    border-radius: 50px;
+    position: absolute;
+    top: -20px;
+    right: 20px;
+}
+
+
+
+.ask-question {
+    margin: 150px auto;
+}
+
+@media screen and (min-width:0) and (max-width:992px) {
+    #hot-package {
+        top: 0;
+        box-shadow: none;
+    }
+
+    .package-section {
+        margin-top: 100px;
+    }
+
+    .package-section-tittle {
+        margin-bottom: 50px;
+    }
+}
