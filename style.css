@@ -69,6 +69,15 @@ body {
     width: 150px;
 }
 
+#my-toast {
+    height: 40px;
+    padding-top: 14px;
+}
+
+.article-toast-content p {
+    font-size: 18px;
+}
+
 /* package section CSS part */
 
 .package-section {
@@ -135,6 +144,10 @@ body {
     background: #fff;
 }
 
+#hot-package .card-btn>a:hover {
+    color: #1F90EC;
+}
+
 #hot-tag {
     background: #FF4E4E;
     padding: 5px 15px;
@@ -163,4 +176,9 @@ body {
     .package-section-tittle {
         margin-bottom: 50px;
     }
+}
+
+footer {
+    height: 200px;
+    background: #000;
 }
